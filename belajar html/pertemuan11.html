@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>form</title>
+</head>
+<body>
+
+  <form>
+    <!-- 1. Input Teks Nama & Password -->
+    Nama Depan: 
+    <input type="text"><br>
+    
+    Nama Belakang: 
+    <input type="text"><br>
+    
+    Password: 
+    <input type="password"><br>
+
+    <!-- 2. Radio Button -->
+    <h4>WNI</h4>
+    <input type="radio" name="WNI" value="ya">
+    <label for="ya">Ya</label>
+    
+    <input type="radio" name="WNI" value="tidak">
+    <label for="tidak">Tidak</label>
+
+    <!-- 3. Checkbox -->
+    <h4>Musik Favorit</h4>
+    <input type="checkbox" name="musik" value="dangdut">
+    <label for="dangdut">Dangdut</label>
+    
+    <input type="checkbox" name="musik" value="jazz">
+    <label for="jazz">Jazz</label>
+
+    <!-- 4. Dropdown List / Select -->
+    <h4>Drop Down List</h4>
+    <select name="pekerjaan">
+      <option value="mahasiswa">Mahasiswa</option>
+      <option value="wirausaha">Wirausaha</option>
+    </select>
+    <br><br>
+
+    <!-- 5. Upload File -->
+    <input type="file" name="foto" value="upload_foto"><br><br>
+
+    <!-- 6. Tombol Submit -->
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
